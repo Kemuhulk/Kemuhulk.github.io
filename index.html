@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hema V | Creative Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="cursor"></div>
+
+    <header class="header">
+      <nav class="navbar container">
+        <div class="logo">HV</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li>
+            <a
+              href="C:\Users\hemav\OneDrive\Desktop\Portfolio\2.0\images\HemaResume (6).pdf"
+              download
+              class="nav-resume"
+            >
+              <i class="fas fa-file-alt"></i> Resume
+            </a>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+
+      <div class="hero container">
+        <div class="hero-content">
+          <h4 class="subtitle">Hello, I'm</h4>
+          <h1 class="title">Hema <span>V</span></h1>
+          <h2 class="profession">Full Stack Developer</h2>
+          <p class="hero-text">
+            Crafting digital experiences with clean code and creative solutions
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-wrapper">
+            <img
+              src="images/hero-image.png"
+              alt="Hema V - Professional Photo"
+              class="profile-photo"
+            />
+            <!-- <div class="placeholder-image"></div> -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section id="about" class="section about-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Get to know me better</p>
+          </div>
+
+          <div class="about-content">
+            <div class="about-image">
+              <div class="image-frame">
+                <img src="images/hero-image2.png" alt="Hema V - About Me" />
+                <!-- <div class="placeholder-image"></div> -->
+              </div>
+            </div>
+            <div class="about-text">
+              <h3>Who am I?</h3>
+              <p>
+                I'm Hema V, a passionate Computer Science Engineer specializing
+                in full stack development. With a keen eye for detail and a love
+                for problem-solving, I create digital solutions that are both
+                functional and beautiful.
+              </p>
+
+              <div class="about-details">
+                <div class="detail-item">
+                  <i class="fas fa-user"></i>
+                  <div>
+                    <h4>Name:</h4>
+                    <p>Hema V</p>
+                  </div>
+                </div>
+                <div class="detail-item">
+                  <i class="fas fa-envelope"></i>
+                  <div>
+                    <h4>Email:</h4>
+                    <p>hemavadivelmurugan@gmail.com</p>
+                  </div>
+                </div>
+                <div class="detail-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div>
+                    <h4>Location:</h4>
+                    <p>Madurai, India</p>
+                  </div>
+                </div>
+                <div class="detail-item">
+                  <i class="fas fa-graduation-cap"></i>
+                  <div>
+                    <h4>Education:</h4>
+                    <p>B.E Computer Science</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="language-skills">
+                <h4>Languages:</h4>
+                <div class="language-bars">
+                  <div class="language-bar">
+                    <span class="language-name">English</span>
+                    <div class="bar-container">
+                      <div class="bar-fill" style="width: 95%"></div>
+                    </div>
+                  </div>
+                  <div class="language-bar">
+                    <span class="language-name">Tamil</span>
+                    <div class="bar-container">
+                      <div class="bar-fill" style="width: 100%"></div>
+                    </div>
+                  </div>
+                  <div class="language-bar">
+                    <span class="language-name">French</span>
+                    <div class="bar-container">
+                      <div class="bar-fill" style="width: 40%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Technologies I work with</p>
+          </div>
+
+          <div class="skills-tabs">
+            <div class="tab-buttons">
+              <button class="tab-btn active" data-tab="technical">
+                Technical
+              </button>
+              <button class="tab-btn" data-tab="soft">Soft Skills</button>
+              <button class="tab-btn" data-tab="tools">Tools</button>
+            </div>
+
+            <div class="tab-content active" id="technical">
+              <div class="skills-grid">
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fab fa-python"></i>
+                  </div>
+                  <h3>Python</h3>
+                  <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fab fa-java"></i>
+                  </div>
+                  <h3>Java</h3>
+                  <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fab fa-js"></i>
+                  </div>
+                  <h3>JavaScript</h3>
+                  <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fab fa-html5"></i>
+                  </div>
+                  <h3>HTML5</h3>
+                  <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fab fa-css3-alt"></i>
+                  </div>
+                  <h3>CSS3</h3>
+                  <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fab fa-react"></i>
+                  </div>
+                  <h3>React</h3>
+                  <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-icon">
+                    <i class="fa-solid fa-database"></i>
+                  </div>
+                  <h3>SQL</h3>
+                  <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-content" id="soft">
+              <div class="soft-skills-grid">
+                <div class="soft-skill-item">
+                  <div class="soft-skill-icon">
+                    <i class="fas fa-brain"></i>
+                  </div>
+                  <h3>Problem Solving</h3>
+                </div>
+                <div class="soft-skill-item">
+                  <div class="soft-skill-icon">
+                    <i class="fas fa-lightbulb"></i>
+                  </div>
+                  <h3>Creative Thinking</h3>
+                </div>
+                <div class="soft-skill-item">
+                  <div class="soft-skill-icon">
+                    <i class="fas fa-clock"></i>
+                  </div>
+                  <h3>Time Management</h3>
+                </div>
+                <div class="soft-skill-item">
+                  <div class="soft-skill-icon">
+                    <i class="fas fa-heart"></i>
+                  </div>
+                  <h3>Empathy</h3>
+                </div>
+                <div class="soft-skill-item">
+                  <div class="soft-skill-icon">
+                    <i class="fas fa-users"></i>
+                  </div>
+                  <h3>Teamwork</h3>
+                </div>
+                <div class="soft-skill-item">
+                  <div class="soft-skill-icon">
+                    <i class="fas fa-smile"></i>
+                  </div>
+                  <h3>Positive Attitude</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-content" id="tools">
+              <div class="tools-grid">
+                <div class="tool-item">
+                  <div class="tool-icon">
+                    <i class="fab fa-git-alt"></i>
+                  </div>
+                  <h3>Git</h3>
+                </div>
+                <div class="tool-item">
+                  <div class="tool-icon">
+                    <i class="fab fa-docker"></i>
+                  </div>
+                  <h3>Docker</h3>
+                </div>
+                <div class="tool-item">
+                  <div class="tool-icon">
+                    <i class="fas fa-database"></i>
+                  </div>
+                  <h3>PostgreSQL</h3>
+                </div>
+                <div class="tool-item">
+                  <div class="tool-icon">
+                    <i class="fas fa-terminal"></i>
+                  </div>
+                  <h3>CLI</h3>
+                </div>
+                <div class="tool-item">
+                  <div class="tool-icon">
+                    <i class="fas fa-cube"></i>
+                  </div>
+                  <h3>Blender</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Some of my recent work</p>
+          </div>
+
+          <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="blockchain">
+              Blockchain
+            </button>
+            <button class="filter-btn" data-filter="app">Applications</button>
+          </div>
+
+          <div class="projects-grid">
+            <div class="project-card" data-category="blockchain">
+              <div class="project-image">
+                <div class="placeholder-image"></div>
+              </div>
+              <div class="project-content">
+                <h3>Pharmaceutical Verification</h3>
+                <p>
+                  Blockchain-based system to verify drug authenticity using
+                  Hyperledger Fabric
+                </p>
+                <div class="project-tech">
+                  <span>MERN</span>
+                  <span>Hyperledger</span>
+                  <span>Docker</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link"
+                    ><i class="fab fa-github"></i> Code</a
+                  >
+                  <a href="#" class="project-link"
+                    ><i class="fas fa-external-link-alt"></i> Live</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-category="web">
+              <div class="project-image">
+                <div class="placeholder-image"></div>
+              </div>
+              <div class="project-content">
+                <h3>Cheque Data Extraction</h3>
+                <p>Automated cheque processing system with OCR technology</p>
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>Streamlit</span>
+                  <span>PostgreSQL</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link"
+                    ><i class="fab fa-github"></i> Code</a
+                  >
+                  <a href="#" class="project-link"
+                    ><i class="fas fa-external-link-alt"></i> Live</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-category="web">
+              <div class="project-image">
+                <div class="placeholder-image"></div>
+              </div>
+              <div class="project-content">
+                <h3>Student Management</h3>
+                <p>Comprehensive system for educational institutions</p>
+                <div class="project-tech">
+                  <span>HTML/CSS</span>
+                  <span>JavaScript</span>
+                  <span>MERN</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link"
+                    ><i class="fab fa-github"></i> Code</a
+                  >
+                  <a href="#" class="project-link"
+                    ><i class="fas fa-external-link-alt"></i> Live</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-category="app">
+              <div class="project-image">
+                <div class="placeholder-image"></div>
+              </div>
+              <div class="project-content">
+                <h3>Pomodoro Tracker</h3>
+                <p>Productivity application implementing Pomodoro technique</p>
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>Tkinter</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link"
+                    ><i class="fab fa-github"></i> Code</a
+                  >
+                  <a href="#" class="project-link"
+                    ><i class="fas fa-external-link-alt"></i> Live</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-category="app">
+              <div class="project-image">
+                <div class="placeholder-image"></div>
+              </div>
+              <div class="project-content">
+                <h3>Language Flashcards</h3>
+                <p>French-English vocabulary trainer with progress tracking</p>
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>Tkinter</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" class="project-link"
+                    ><i class="fab fa-github"></i> Code</a
+                  >
+                  <a href="#" class="project-link"
+                    ><i class="fas fa-external-link-alt"></i> Live</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle">Let's work together</p>
+          </div>
+
+          <div class="contact-content">
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-text">
+                  <h3>Email</h3>
+                  <p>hemavadivelmurugan@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-text">
+                  <h3>Phone</h3>
+                  <p>+91 9087515052</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-text">
+                  <h3>Location</h3>
+                  <p>Madurai, India</p>
+                </div>
+              </div>
+              <div class="social-media">
+                <a
+                  href="https://www.linkedin.com/in/hema-vadivelmurugan"
+                  target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/Kemuhulk" target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <form class="contact-form">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Subject" />
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">HV</div>
+          <p>Creative developer crafting digital experiences</p>
+          <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Hema V. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="scroll-top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
